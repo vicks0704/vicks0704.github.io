@@ -1,0 +1,402 @@
+*{
+    border: 0px;
+    margin: 0px;
+    padding: 0px;
+}
+
+body{
+    font-family: 'Hind Siliguri', sans-serif;
+}
+
+header nav{
+    display: flex;
+    width: 100%;
+}
+
+header nav ul{
+    display: flex;
+}
+
+header nav img{
+    margin-left: 2rem;
+    padding: 20px;
+}
+
+header nav ul li{
+    list-style: none;
+}
+
+header nav ul li a{
+    text-decoration: none;
+    margin-left: 30px;
+    padding: 40px 1px 10px 1px;
+    color: black;
+    display: inline-block;
+    word-spacing: 10px;
+    text-transform: capitalize;
+    font-family: 'Hind Siliguri', sans-serif;
+    font-size: 16px;
+}
+
+header nav ul li a:hover{
+    /* text-decoration: underline; */
+    border-bottom: 1px solid black;
+    /* background-color: dimgrey; */
+    /* color: white; */
+}
+
+header nav .red-button{
+    width: 10%;
+}
+
+header nav button{
+    padding: 15px;
+    text-align: left;
+    margin-top: 20px;
+    margin-left: 4rem;
+    display: inline-block;
+    text-transform: capitalize;
+    background-color: orangered;
+    color: white;
+    width: 100%;
+    clip-path: polygon(0% 0%, 100% 0%, 90% 100%, 0% 100%);
+}
+
+.empty{
+    border-top: 3px solid #eee;
+    background-color: white;
+    width: 100%;
+    height: 100px;
+}
+
+.bg{
+    background-color: #eee;
+    text-align: center;
+    width: 100%;
+    height: 300px;
+}
+
+.bg p{
+    text-transform: capitalize;
+    font-family: 'Garamond', serif;
+    font-size: 50px;
+    padding-top: 125px;
+}
+
+.bg button{
+    text-transform: uppercase;
+    margin-top: 72px;
+    margin-right: 1000px;
+    background-color: orangered;
+    padding: 15px 25px;
+    color: white;
+    clip-path: polygon(0% 0%, 100% 0%, 90% 100%, 0% 100%);
+}
+
+.content{
+    display: inline-flex;
+    width: 100%;
+    height: fit-content;
+    margin: 3rem;
+    background-color: white;
+}
+
+article{
+    /* width: 55.3%; */
+    width: 60%;
+    height: fit-content;
+    display: block;
+
+}
+
+aside{
+    /* width: 35.5%; */
+    width: 32%;
+    height: fit-content;
+    /* background-color: #eee; */
+    /* margin-left: 2rem; */
+    /* margin-right: 3rem; */
+    display: block;
+    overflow: hidden;
+    /* margin-right: rem; */
+}
+
+article .image1{
+    background-image: url(../media/oxpitan/donate-5.jpg);
+    background-size: contain;
+    width: 100%;
+    height: 500px;
+    background-repeat: no-repeat;
+    /* float: left; */
+    /* overflow: hidden; */
+}
+
+/* article .image1 i{
+    float: right;
+} */
+
+aside .side-div{
+    width: 100%;
+    height: 250px;
+    padding: 40px;
+    background-color: #eee;
+}
+
+aside .side-div table{
+    width: 80%;
+    height: 100%;
+}
+
+aside .side-div table tr>td{
+    text-transform: capitalize;
+    font-size: 16px;
+}
+
+#cat{
+    font-size: 18px;
+}
+
+article .p1{
+    text-transform: capitalize;
+    font-size: 20px;
+    font-weight: bold;
+    padding: 20px 0px;
+}
+
+article .p2{
+    font-size: 14px;
+    padding-bottom: 20px;
+}
+
+article .p2 .span1{
+    color: orange;
+}
+
+article .p2 .span2{
+    color: orangered;
+}
+
+article .amount{
+    width: 50%;
+}
+
+article .amount button{
+    color: white;
+    background-color: orange;
+    padding: 10px;
+}
+
+article .amount input{
+    border: 2px solid #eee;
+    padding: 10px;
+}
+
+article .amount button:focus, input:focus{
+    outline: none;
+}
+
+article .buttons ul{
+    display: inline-flex;
+    list-style-type: none;
+}
+
+article .buttons ul li .btn1{
+    color: white;
+    background-color: orangered;
+    padding: 10px 20px;
+    margin-top: 20px;
+    clip-path: polygon(0% 0%, 100% 0%, 90% 100%, 0% 100%);
+    /* text-align: right; */
+}
+
+article .buttons ul li .btn2, .btn3, .btn4, .btn5{
+    color: white;
+    background-color: orange;
+    padding: 10px 20px;
+    margin: 20px 5px;
+    clip-path: polygon(0% 0%, 100% 0%, 90% 100%, 0% 100%);
+    /* text-align: right; */
+}
+
+article .btn6{
+    color: white;
+    background-color: orange;
+    padding: 10px 20px;
+    clip-path: polygon(0% 0%, 100% 0%, 90% 100%, 0% 100%);
+    margin-bottom: 20px;
+}
+
+article .par{
+    padding: 15px 0px 10px 0px;
+    /* text-align: justify; */
+    line-height: 20px;
+}
+
+article .div1{
+    width: 100%;
+    display: flex;
+    padding-top: 20px;
+}
+
+article .div1 .div2{
+    width: 50%;
+}
+
+article .div2 .title{
+    font-size: 18px;
+    padding-bottom: 20px;
+    font-weight: bold;
+}
+
+article .div2 .message{
+    padding-bottom: 20px;
+    line-height: 20px;
+}
+
+article .div1 .div3{
+    background-image: url(../media/oxpitan/image-12.jpg);
+    width: 50%;
+    float: right;
+    background-repeat: no-repeat;
+}
+
+article .par-div{
+    width: 86%;
+    height: fit-content;
+    margin-top: 30px;
+    background-color: lightblue;
+    padding: 30px;
+    line-height: 20px;
+    word-spacing: 5px;
+}
+
+article .par-div2{
+    width: 93%;
+    margin-top: 25px;
+    height: fit-content;
+    line-height: 20px;
+    word-spacing: 5px;
+    text-align: justify;
+}
+
+aside .side-div2{
+    margin: 30px 0px;
+    width: 100%;
+    background-color: #eee;
+    height: fit-content;
+}
+
+aside .side-div2 p{
+    padding: 25px 0px 0px 30px;
+    text-transform: capitalize;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+aside .side-div2 img{
+    width: 86%;
+    margin: 30px 0px 0px 30px;
+}
+
+#goal{
+    font-size: 14px;
+} 
+
+#raised{
+    font-size: 14px;
+} 
+
+aside .side-div2 p .span3{
+    color: orangered;
+}
+
+aside .side-div2 button{
+    clip-path: polygon(0% 0%, 100% 0%, 90% 100%, 0% 100%);
+    background-color: skyblue;
+    padding: 15px 25px;
+    font-size: 14px;
+    font-weight: bold;
+    color: white;
+    margin: 30px;
+    text-transform: capitalize;
+}
+
+#btn8{
+    background-color: orange;
+}
+
+#btn7{
+    background-color: orangered;
+}
+
+footer{
+    background-image: url(../media/oxpitan/bg-footer.jpg);
+    width: 100%;
+    height: fit-content;
+    text-align: center;
+}
+
+footer img{
+    margin-top: 120px;
+}
+
+footer .newsletter{
+    font-family: 'Garamond', serif;
+    font-size: 50px;
+    color: white;
+    padding-top: 20px;
+    text-transform: capitalize;
+}
+
+footer .updated{
+    color: rgb(241, 127, 241);
+    padding-top: 20px;
+}
+
+footer .subscribe{
+    padding-top: 40px;
+}
+
+footer .subscribe input{
+    padding: 20px 15px;
+    width: 30%;
+    color: #eee;
+    background-color: rgba(0, 0, 0, 0.3);
+}
+
+footer .subscribe button{
+    padding: 20px 25px;
+    clip-path: polygon(0% 0%, 100% 0%, 90% 100%, 0% 100%);
+    color: white;
+    background-color: orangered;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+footer .foot-table{
+    width: 100%;
+    margin-top: 100px;
+    text-align: center;
+}
+
+footer .foot-table table{
+    width: 98%;
+    color: white;
+    height: 300px;
+    text-align: center;
+    text-transform: capitalize;
+}
+
+footer .foot-table table thead{
+    font-family: 'Garamond', serif;
+    font-size: 20px;
+}
+
+#arrow{
+    border: 2px solid white;
+    border-radius: 50%;
+    width: 20px;
+    height: 20px;
+}
+
+/* footer */

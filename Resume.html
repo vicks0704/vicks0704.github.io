@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Project Three</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta charset="UTF-8">
+        <link rel="stylesheet" href="style/fontawesome/css/all.min.css">
+    </head>
+
+    <body>
+
+        <script src="style/fontawesome/js/all.min.js"></script>
+        <script>
+            // document.implementation.createHTMLDocument("My POrtfolio");
+document.write("<nav><ul id='navbar'><div id='div1'><li><p id='p1'><i class='fa fa-home'></i></p> home</div></li>");
+document.write("<li><div id='div6'><p id='p2'><i class='fas fa-address-card'></i></p> resume</div></li>");
+document.write("<li><div id='div2'><p id='p3'><i class='fas fa-users'></i></p> services</div></li>");
+document.write("<li><div id='div3'><p id='p4'><i class='fas fa-briefcase'></i></p> portfolio</div></li>");
+document.write("<li><div id='div4'><p id='p5'><i class='fas fa-pen-alt'></i></p> blog</div></li>");
+document.write("<li><div id='div5'><p id='p6'><i class='fas fa-phone'></i></p> contact</div></li></ul></nav>");
+var ul_element = document.getElementById("navbar");
+ul_element.style.display = "inline-flex";
+ul_element.style.listStyleType = "none";
+ul_element.style.textTransform = "capitalize";
+ul_element.style.fontFamily = "'Helvetica', sans-serif";
+ul_element.style.color = "dimgrey";
+ul_element.style.fontWeight = "bold";
+ul_element.style.marginBottom = "0px";
+
+var list_item1 = document.getElementById("div1");
+list_item1.style.width = "100px";
+list_item1.style.height = "100px";
+list_item1.style.marginLeft = "100px";
+list_item1.style.textAlign = "center";
+list_item1.style.backgroundColor = "#eee";
+
+var list_item2 = document.getElementById("div2");
+list_item2.style.width = "100px";
+list_item2.style.height = "100px";
+list_item2.style.marginLeft = "100px";
+list_item2.style.textAlign = "center";
+
+var list_item3 = document.getElementById("div3");
+list_item3.style.width = "100px";
+list_item3.style.height = "100px";
+list_item3.style.marginLeft = "100px";
+list_item3.style.textAlign = "center";
+
+var list_item4 = document.getElementById("div4");
+list_item4.style.width = "100px";
+list_item4.style.height = "100px";
+list_item4.style.marginLeft = "100px";
+list_item4.style.textAlign = "center";
+
+var list_item5 = document.getElementById("div5");
+list_item5.style.width = "100px";
+list_item5.style.height = "100px";
+list_item5.style.marginLeft = "100px";
+list_item5.style.textAlign = "center";
+
+var list_item6 = document.getElementById("div6");
+list_item6.style.width = "100px";
+list_item6.style.height = "100px";
+list_item6.style.marginLeft = "100px";
+list_item6.style.textAlign = "center";
+// list_item1.style.display = "block";
+
+var par1 = document.getElementById("p1");
+par1.style.width = "20px";
+par1.style.height = "20px";
+par1.style.border = "1px solid dimgrey";
+par1.style.border = "1px solid dimgrey";
+par1.style.borderRadius = "100%";
+par1.style.backgroundColor = "dimgrey";
+par1.style.color = "lightblue";
+par1.style.marginLeft = "40px";
+
+document.write("<div id='body-div'><aside id='right-part'><p id='p7'>paul rossi</p>");
+document.write("<p id='p8'>web developer</p><p id='p9'>photographer</p><p id='p10'>soccer fan</p><p id='p11'>father of two</p><p id='icons'><i class='fab fa-twitter'></i> <i class='fab fa-facebook-f'></i> <i class='fab fa-google-plus'></i> <i class='fab fa-pinterest'></i> <i class='fab fa-linkedin-in'></i></p>");
+document.write("<p id='copy'>&copy Victor 2020 all rights reserved</p></aside>");
+document.write("<article id='left-part'><div id='no-image'><p id='p12'>savvy.</p><p id='p13'>creative.</p><p id='p14'>determined.</p>");
+document.write("<p id='p15'>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum is simply dummy text of the printing and typesetting industry. </p><p id='p16'>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum is simply dummy text of the printing and typesetting industry. </p>");
+document.write("</div>");
+document.write("<div id='image-div'><img id='photo' src='media/blackman.jpg'></div>");
+document.write("</article></div>");
+
+var bigDiv = document.getElementById("body-div");
+bigDiv.style.width = "100%";
+bigDiv.style.height = "fit-content";
+bigDiv.style.display = "inline-flex";
+bigDiv.style.fontFamily = "'Helvetica', sans-serif";
+bigDiv.style.marginTop = "0px";
+bigDiv.style.backgroundColor = "skyblue";
+
+var rightPart = document.getElementById("right-part");
+rightPart.style.width = "45%";
+rightPart.style.height = "100%";
+rightPart.style.backgroundColor = "dimgrey";
+rightPart.style.marginTop = "0px";
+
+var p7 = document.getElementById("p7");
+p7.style.fontSize = "30px";
+p7.style.fontWeight = "bolder";
+p7.style.color = "#eee";
+p7.style.paddingLeft = "135px";
+p7.style.textTransform = "capitalize";
+
+var p8 = document.getElementById("p8");
+p8.style.color = "#eee";
+p8.style.paddingLeft = "135px";
+
+var p9 = document.getElementById("p9");
+p9.style.color = "#eee";
+p9.style.paddingLeft = "135px";
+
+var p10 = document.getElementById("p10");
+p10.style.color = "#eee";
+p10.style.paddingLeft = "135px";
+
+var p11 = document.getElementById("p11");
+p11.style.color = "#eee";
+p11.style.paddingLeft = "135px";
+
+var icons = document.getElementById("icons");
+icons.style.paddingTop = "40px";
+icons.style.paddingLeft = "135px";
+icons.style.color = "#eee";
+icons.style.wordSpacing = "15px";
+
+var copy = document.getElementById("copy");
+copy.style.paddingTop = "300px";
+copy.style.paddingLeft = "135px";
+copy.style.color = "#eee";
+copy.style.textTransform = "capitalize";
+
+var leftPart = document.getElementById("left-part");
+rightPart.style.width = "60%";
+leftPart.style.height = "100%";
+leftPart.style.marginTop = "0px";
+rightPart.style.display = "block";
+
+
+var noImage = document.getElementById("no-image");
+noImage.style.width = "40%";
+noImage.style.height = "100%";
+noImage.style.marginTop = "0px";
+noImage.style.float = "left";
+
+
+var p13 = document.getElementById("p13");
+p13.style.paddingTop = "15px";
+p13.style.paddingLeft = "40px";
+p13.style.color = "#eee";
+p13.style.fontWeight = "bolder";
+p13.style.fontSize = "30px";
+p13.style.textTransform = "capitalize";
+
+
+var p12 = document.getElementById("p12");
+p12.style.paddingTop = "0px";
+p12.style.paddingLeft = "40px";
+p12.style.color = "#eee";
+p12.style.fontWeight = "bolder";
+p12.style.fontSize = "30px";
+p12.style.textTransform = "capitalize";
+
+
+var p14 = document.getElementById("p14");
+p14.style.paddingTop = "15px";
+p14.style.paddingLeft = "40px";
+p14.style.color = "#eee";
+p14.style.fontWeight = "bolder";
+p14.style.fontSize = "30px";
+p14.style.textTransform = "capitalize";
+
+var p15 = document.getElementById("p15");
+p15.style.paddingTop = "20px";
+p15.style.paddingLeft = "40px";
+p15.style.color = "#eee";
+
+var p16 = document.getElementById("p16");
+p16.style.paddingTop = "15px";
+p16.style.paddingLeft = "40px";
+p16.style.color = "#eee";
+
+var imageDiv = document.getElementById("image-div");
+imageDiv.style.width = "50%";
+imageDiv.style.height = "fit-content";
+imageDiv.style.marginTop = "0px";
+// imageDiv.style.overflow = "hidden";
+imageDiv.style.float = "right";
+imageDiv.style.textAlign = "center";
+
+var photo = document.getElementById("photo");
+photo.style.width = "85%";
+photo.style.border = "5px solid white";
+photo.style.width = "85%";
+// photo.style.height = "100%";
+photo.style.marginTop = "20px";
+// photo.style.overflow = "hidden";
+
+
+
+
+// nav_element.style.wordSpacing = "10px";
+
+// i.setAttribute("class","fa fa-home");
+// document.getElementById("page")
+        </script>
+    </body>
+</html>
